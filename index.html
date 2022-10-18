@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="format-detection" content="telephone=no" />
-    <link rel="shortcut icon" href="images/favicon.png" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
     <link
       rel="apple-touch-icon-precomposed"
       href="images/apple-touch-icon.png"
@@ -52,23 +52,31 @@
   </head>
 
   <body>
-    <!-- 안내창 -->
+    <!-- modal -->
     <div class="modal-wrap">
-      <div class="modal-main">
-        <h1>STX 건설 클론코딩</h1>
-        <p>
-          이 사이트는 <b>스터디용</b>으로 제작되었으며 리소스는
-          <strong>원저작자</strong>에게 있습니다. <br />
-          해당 사이트 관련 문제 사항이 있으시면 연락해주시면 삭제하겠습니다.<br />
-          본 사이트는 Chrome 에 최적화되어 있습니다.
-        </p>
-
-        <button class="modal-close">
-          <i class="fas fa-times"></i>
-        </button>
+      <div class="modal-content">
+        <div class="modal-notice">
+          <p>
+            해당 컨텐츠는 학습용으로 제작되었으며,<br />
+            모든 리소스는 원저작자에게 있음을 밝힙니다.
+          </p>
+          <span>본 사이트는 Chrome 에 최적화 되어있습니다.</span>
+        </div>
+        <div class="modal-desc">
+          <span>다음과 같은 사항들을 학습, 그리고 개선하였습니다.</span>
+          <ul class="modal-comments">
+            <li>
+              학습 초기에 진행해본 프로젝트로, 전반적인 레이아웃과 구현에 중점을
+              두고 작업한 클론코딩입니다.
+            </li>
+            <li>
+              menu파트에서의 포커스 유지의 중요성과 구현에 대해 학습하였다.
+            </li>
+          </ul>
+        </div>
+        <div class="modal-close">확인</div>
       </div>
     </div>
-
     <div class="wrap">
       <!-- 상단 -->
       <header class="header">
